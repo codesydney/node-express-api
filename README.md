@@ -15,12 +15,12 @@ Pre-Coding
 
 Coding
 1. npm init -y (To create package.json)
-2. create index.js
-3. npm install --save express (To install npm and express)
-4. node -v (To get the version)
-5. Explain CRUD for User management (GET/POST/DELETE/PATCH)
-6. Copy the existing codebase
+2. npm install --save express (To install Express)
+4. node -v (To get the Node.js version)
+5. npm list express (To get the Express version)
+6. Explain CRUD for User management (GET/POST/DELETE/PATCH)
+7. Copy the existing codebase
+8. npm install uuid (To get Universally Unique Identifier for each record)
 
 Testing 
 1. Install Postman (For testing APIs)
-2. 
