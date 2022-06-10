@@ -1,22 +1,16 @@
 import { v4 as uuidv4 } from 'uuid';
 
-let users = [
-    /*
-    {
-        firstName: "John",
-        lastName: "Doe",
-        age: 25
-    }
-    */
-]
+let users = [];
 
 export const getUsers = (req, res) => {
+    console.log(`Users in the database: ${users}`);
     console.log(users);
     res.send(users);
 }
 
 export const createUser = (req, res) => {       
     const user = req.body;
+    console.log(user);
     const userId = uuidv4();
     const userWithId = { ...user, id: userId }
     console.log(userWithId);

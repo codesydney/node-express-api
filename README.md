@@ -2,6 +2,7 @@
 ## CRUD API Tutorial
 
 Reference: https://youtu.be/l8WPWK9mS5M
+Original Reference codebase: https://github.com/adrianhajdin/node_express_crud_api
 
 ### Session Flow
 Pre-Coding
@@ -16,11 +17,12 @@ Pre-Coding
 Coding
 1. npm init -y (To create package.json)
 2. npm install --save express (To install Express)
-3. node -v (To get the Node.js version)
-4. npm list express (To get the Express version)
-5. Explain CRUD for User management (GET/POST/DELETE/PATCH)
-6. Copy the existing codebase
-7. npm install uuid (To get Universally Unique Identifier for each record)
+3. npm i body-parser (To install Express request body parser)
+4. node -v (To get the Node.js version)
+6. npm list express (To get the Express version)
+7. Explain CRUD for User management (GET/POST/DELETE/PATCH)
+8. Copy the existing codebase
+9. npm install uuid (To get Universally Unique Identifier for each record)
 
 Testing 
 1. Install Postman (For testing APIs)
