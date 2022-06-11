@@ -1,7 +1,7 @@
 # Build a REST API with Node JS and Express
 ## CRUD API Tutorial
 
-Reference: https://youtu.be/l8WPWK9mS5M
+Reference: https://youtu.be/l8WPWK9mS5M <br/>
 Original Reference codebase: https://github.com/adrianhajdin/node_express_crud_api
 
 ### Session Flow
